@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     strictPort: true, // Ensures Vite server uses the specified port
     mimeTypes: {
-      'application/javascript': ['js', 'jsx'],
+      'application/octet-stream': ['js', 'jsx'],
     },
   },
   build: {
